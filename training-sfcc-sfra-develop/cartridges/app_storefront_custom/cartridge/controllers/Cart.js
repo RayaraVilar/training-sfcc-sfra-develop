@@ -5,6 +5,7 @@
  */
 
 var server = require('server');
+server.extend(module.superModule)
 
 var csrfProtection = require('*/cartridge/scripts/middleware/csrf');
 var consentTracking = require('*/cartridge/scripts/middleware/consentTracking');
